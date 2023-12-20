@@ -913,6 +913,7 @@ cc_library(
         "stablehlo/transforms/StablehloRefineShapes.cpp",
         "stablehlo/transforms/VhloLegalizeToStablehlo.cpp",
         "stablehlo/transforms/VhloToVersion.cpp",
+        "stablehlo/reference/InterpreterOps.cpp",
     ],
     hdrs = [
         "stablehlo/transforms/MapStablehloToVhlo.h",

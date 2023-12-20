@@ -25,7 +25,6 @@ add_mlir_dialect_library(StablehloPasses
   StablehloRefineShapes.cpp
   VhloLegalizeToStablehlo.cpp
   VhloToVersion.cpp
-  stablehlo/reference/InterpreterOps.cpp
 
   DEPENDS
   PassesIncGen
